@@ -1,0 +1,19 @@
+{
+  "name": "loginsignapi",
+  "version": "1.0.0",
+  "description": "For Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anuragchamp/BackEndDevelopmentTest.git"
+  },
+  "author": "Anurag Chhaperwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anuragchamp/BackEndDevelopmentTest/issues"
+  },
+  "homepage": "https://github.com/anuragchamp/BackEndDevelopmentTest#readme"
+}
