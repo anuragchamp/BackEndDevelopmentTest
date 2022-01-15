@@ -1,19 +1,20 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const server = express();
-const loginController = require('./controller/login_controller')
+const app = express();
+//const loginController = require('./controller/controller')
 
 
-require('./database_connection/DatabaseConnection');
+
+require('./database_connection/databaseconnection');
 require('dotenv').config();
 
 
-server.use(bodyParser.json());
-server.use('/api/v1/', loginController);
+app.use(bodyParser.json());
+//server.use('/api/v1/', loginController);
+require('./router')(app)
 
 
 
-
-server.listen(process.env.PORT, () => {
+app.listen(process.env.PORT, () => {
     console.log('connected');
 });
