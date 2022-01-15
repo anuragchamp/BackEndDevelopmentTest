@@ -3,6 +3,11 @@ const studentSchema = require('../models/student_schema');
 
 const controller = express.Router();
 
+
+controller.get('/', (req, res) => {
+    res.send("server is running");
+});
+
 controller.get('/login', async (req, res) => {
     const email = req.query.email;
     const password = req.query.password;
