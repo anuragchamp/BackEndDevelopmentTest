@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/anuragchamp/BackEndDevelopmentTest/issues"
   },
-  "homepage": "https://github.com/anuragchamp/BackEndDevelopmentTest#readme"
+  "homepage": "https://github.com/anuragchamp/BackEndDevelopmentTest#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "dotenv": "^12.0.3",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.6"
+  }
 }
