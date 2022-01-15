@@ -1,3 +1,4 @@
+let port = process.env.PORT || 2000;
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
@@ -15,6 +16,6 @@ require('./router')(app)
 
 
 
-app.listen(process.env.PORT, () => {
+app.listen(port, () => {
     console.log('connected');
 });
