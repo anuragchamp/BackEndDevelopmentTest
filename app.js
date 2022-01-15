@@ -1,9 +1,10 @@
-let port = process.env.PORT || 2000;
+
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
 //const loginController = require('./controller/controller')
 
+let port = process.env.PORT || 2000;
 
 
 require('./database_connection/databaseconnection');
