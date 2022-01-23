@@ -10,7 +10,7 @@ let port = process.env.PORT || 2000;
 require('./database_connection/database_connection');
 require('dotenv').config();
 
-
+app.use(express.static('public'))
 app.use(bodyParser.json());
 //server.use('/api/v1/', loginController);
 require('./router')(app)
